@@ -26,4 +26,4 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "large-bee-93"
-          entrypoint: "./src/index.js" # TODO: update entrypoint
+          entrypoint: "dist/index.html" # TODO: update entrypoint
