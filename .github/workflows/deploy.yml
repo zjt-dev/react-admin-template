@@ -16,11 +16,11 @@ jobs:
       # TODO: add a build step here
       - name: npm install
         run: |
-          npm install
+          yarn
           
       - name: npm build
         run: |
-          npm run build
+          yarn build
           
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
